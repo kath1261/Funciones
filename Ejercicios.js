@@ -41,13 +41,13 @@ function mostrarHola() { //La función se llama mostrarHola y dentro de las llav
   function encontrarMayor(a, b) {
     return a > b ? a : b; //Se utiliza el operador ternario para comparar a y b. Si "a" es mayor que "b", devuelve "a", de lo contrariod evuelve "b".
   }
-  
+
   let numeroMayor = encontrarMayor(15, 9);
   console.log(numeroMayor);
 
 
   //6. Crear una función que recibe un número como parámetro y devuelve el resultado de multiplicar ese número por sí mismo.
-  
+
 function cuadrado(numero) {
   return numero * numero;
 }
